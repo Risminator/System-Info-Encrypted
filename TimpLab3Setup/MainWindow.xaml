@@ -1,0 +1,26 @@
+﻿<Window x:Class="TimpLab3Setup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimpLab3Setup"
+        mc:Ignorable="d"
+        Title="Download and Install Updates" MinHeight="450" MaxHeight="450" Height="450" MaxWidth="600" MinWidth="450" Width="600">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="TextWelcome" Text="Welcome to Software Update Master. Please enter the install folder and press 'Update'." Margin="20 30 0 0" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="150" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="FolderBox" Grid.Column="0" IsReadOnly="True" Background="#eeeeee" Margin="20 145 0 0" TextChanged="FolderBox_TextChanged"/>
+                <Button x:Name="BtnFolder" Grid.Column="1" Content="Browse.." Margin="30 145 20 0" Click="BtnClickFolder"/>
+            </Grid>
+            <Button x:Name="BtnInstall" Content="Update" IsEnabled="False" Margin="420 170 50 0" Click="BtnClickP1"/>
+        </StackPanel>
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+    </Grid>
+    
+</Window>
