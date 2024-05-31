@@ -1,0 +1,7 @@
+C:\Users\Risovator\source\repos\secur\secur\bin\Debug\secur.exe.config
+C:\Users\Risovator\source\repos\secur\secur\bin\Debug\secur.exe
+C:\Users\Risovator\source\repos\secur\secur\bin\Debug\secur.pdb
+C:\Users\Risovator\source\repos\secur\secur\obj\Debug\secur.csproj.AssemblyReference.cache
+C:\Users\Risovator\source\repos\secur\secur\obj\Debug\secur.csproj.CoreCompileInputs.cache
+C:\Users\Risovator\source\repos\secur\secur\obj\Debug\secur.exe
+C:\Users\Risovator\source\repos\secur\secur\obj\Debug\secur.pdb
